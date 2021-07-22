@@ -6,7 +6,7 @@ type Connection struct{}
 
 var instance *Connection
 
-func GetInstance() *Connection  {
+func GetInstance() *Connection {
 	if instance == nil {
 		instance = &Connection{}
 	}

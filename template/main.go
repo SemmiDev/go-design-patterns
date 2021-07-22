@@ -35,10 +35,11 @@ type SeniorHighSchool struct {
 }
 
 var smaCount uint32 = 0
+
 func (s SeniorHighSchool) inputStudent() {
 	fmt.Println("\nINPUT SENIOR HIGH SCHOOL REGISTRATION")
 	smaCount++
-	
+
 	var name string
 	fmt.Print("masukkan nama anda : ")
 	fmt.Scanln(&name)
