@@ -1,6 +1,39 @@
 # Go Design Patterns
 
+## Design Patterns?
+
+- Design patterns adalah solusi umum yang biasa digunakan ketika menghadapi masalah saat
+melakukan desain aplikasi
+- Design patterns bukanlah solusi yang bisa di transform langsung menjadi kode program
+- Design patterns adalah template atau panduan untuk menyelesaikan masalah, dan bisa
+diimplementasikan berbeda-beda, namun dengan tujuan yang sama
+
+## Kegunaan Design Patterns
+
+- Design patterns bisa mempercepat proses development dengan menyediakan solusi yang sudah
+terbukti.
+- Menggunakan Design Patterns bisa menolong kita dari kesalahan dimasa depan jika
+- mengimplementasikan solusi sendiri yang belum terbukti baik.
+- Design Patterns menyediakan solusi umum, sehingga bisa digunakan di berbagai kasus
+- Design Patterns juga sudah umum diadopsi oleh para pengembang perangkat lunak, sehingga
+- menggunakan Design Patterns akan memudahkan perangkat lunak kita mudah dikembangkan
+
+## Jenis-jenis
+
+- Creational Design Patterns, yaitu Design Patterns yang berhubungan dengan mekanisme
+pembuatan object
+- Structural Design Patterns, yaitu Design Patterns yang berhubungan dengan interaksi antar object
+dan class ketika membentuk struktur yang lebih besar. - Behavioral Design Patterns, yaitu Design Patterns yang berhubungan dengan penugasan,
+tanggung jawab, dan hubungan antar object
+
 ## Creational patterns
+
+- Creational Design Patterns adalah Design Patterns untuk membuat object.
+- Creational Design Patterns membuat system menjadi lebih independen ketika membuat dan
+melakukan komposisi object
+- Creational Design Patterns kadang menggunakan perawisan untuk membuat object
+- Penggunaan Design Patterns tidak diharuskan hanya satu Pattern saja, kita bisa menggabungkan
+beberapa Design Patterns sekaligus jika memang dibutuhkan
 
 - **Abstract Factory** Provide an interface for creating families of related or dependent objects without specifying their concrete classes.
 - **Builder** Separate the construction of a complex object from its representation so that the same construction process can create different representations.
@@ -8,7 +41,11 @@
 - **Object Pool** Instantiates and maintains a group of objects instances of the same type.
 - **Prototype** Specify the kinds of objects to create using a prototypical instance, and create new objects by copying this prototype.
 - **Singleton** Ensure a class only has one instance, and provide a global point of access to it.
-
+```
+    Memastikan bahwa sebuah class hanya memiliki satu instance object, dan menyediakan
+    cara mengaksesnya secara global (artinya bisa diakses dari mana saja)
+```
+  
 ## Structural patterns
 - **Adapter** Convert the interface of a class into another interface clients expect. Adapter lets classes work together that couldn't otherwise because of incompatible interfaces.
 - **Bridge** Decouple an abstraction from its implementation so that the two can cary independently.
