@@ -35,11 +35,35 @@ melakukan komposisi object
 - Penggunaan Design Patterns tidak diharuskan hanya satu Pattern saja, kita bisa menggabungkan
 beberapa Design Patterns sekaligus jika memang dibutuhkan
 
+## GO
 - **Abstract Factory** Provide an interface for creating families of related or dependent objects without specifying their concrete classes.
+```
+    Menyediakan sebuah interface untuk membuat keluarga object yang saling berkaitan tanpa perlu
+    menentukan class konkret nya
+    Kadang disebut juga dengan pattern Kit
+```
+
 - **Builder** Separate the construction of a complex object from its representation so that the same construction process can create different representations.
+```
+    Memisahkan pembuatan objek yang kompleks dari representasi sehingga proses pembuatan yang
+    sama dapat membuat representasi yang berbeda.
+```
+
 - **Factory Method** Define an interface for creating an object, but let subclasses decide which class to instantiate. Factory method lets a class defer instantiation to subclasses.
+```
+    Membuat interface untuk membuat objek, tetapi biarkan subclass memutuskan kelas mana yang
+    akan dibuat. Factory Method memungkinkan instansiasi class dilakukan ke subclass nya.
+    Biasa juga disebut sebagai Virtual Constructor
+```
+
 - **Object Pool** Instantiates and maintains a group of objects instances of the same type.
+
 - **Prototype** Specify the kinds of objects to create using a prototypical instance, and create new objects by copying this prototype.
+```
+    Tentukan jenis objek yang akan dibuat menggunakan contoh prototipe, dan buat objek baru
+    dengan menyalin objek prototipe-nya.
+```
+
 - **Singleton** Ensure a class only has one instance, and provide a global point of access to it.
 ```
     Memastikan bahwa sebuah class hanya memiliki satu instance object, dan menyediakan
